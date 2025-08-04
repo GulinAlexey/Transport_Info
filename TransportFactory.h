@@ -2,5 +2,6 @@
 
 class TransportFactory
 {
-
+private:
+public:
 };

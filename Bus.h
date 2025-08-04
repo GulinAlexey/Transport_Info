@@ -1,8 +1,8 @@
 #pragma once
 #include "Transport.h"
 
-// Автомобиль
-class Car : Transport
+// Автобус
+class Bus : Transport
 {
 private:
 public:

@@ -12,7 +12,7 @@ endif()
 project ("Transport_Info")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Transport_Info "Transport_Info.cpp" "Transport_Info.h" "Transport.h" "Transport.cpp" "TransportFactory.h" "TransportFactory.cpp" "Car.h" "Car.cpp")
+add_executable (Transport_Info "Transport_Info.cpp" "Transport_Info.h" "Transport.h" "Transport.cpp" "TransportFactory.h" "TransportFactory.cpp" "Car.h" "Car.cpp" "Motorcycle.h" "Motorcycle.cpp" "Bus.h" "Bus.cpp" "Scooter.h" "Scooter.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Transport_Info PROPERTY CXX_STANDARD 20)

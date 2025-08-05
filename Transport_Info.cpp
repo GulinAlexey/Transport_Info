@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-
+	setlocale(LC_ALL, "Rus"); // для корректного отображения русских букв
 	for (int i=1; i<argc; i++)
 	{
 		Transport* transport = TransportFactory::create(atoi(argv[i]));

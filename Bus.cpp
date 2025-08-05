@@ -1,4 +1,4 @@
-#include "Bus.h"
+﻿#include "Bus.h"
 
 Bus::Bus()
 {
@@ -11,5 +11,5 @@ Bus::Bus()
 void Bus::showInfo()
 {
 	Transport::showInfo();
-	cout << "ћаксимальное количество пассажиров: " << this->maxPassengersQty << " чел." << endl;
+	cout << "Максимальное количество пассажиров: " << this->maxPassengersQty << " чел." << endl;
 }

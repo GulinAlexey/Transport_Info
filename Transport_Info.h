@@ -4,5 +4,8 @@
 #pragma once
 
 #include <iostream>
+#include <string>
+#include "Transport.h"
+#include "TransportFactory.h"
 
 // TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.

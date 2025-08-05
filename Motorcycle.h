@@ -2,8 +2,11 @@
 #include "Transport.h"
 
 // Мотоцикл
-class Motorcycle : Transport
+class Motorcycle : public Transport
 {
 private:
+	bool isSidecar; // наличие коляски
 public:
+	Motorcycle();
+	void showInfo() override;
 };

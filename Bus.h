@@ -2,8 +2,11 @@
 #include "Transport.h"
 
 // Автобус
-class Bus : Transport
+class Bus : public Transport
 {
 private:
+	int maxPassengersQty; // макс. кол-во пассажиров
 public:
+	Bus();
+	void showInfo() override;
 };

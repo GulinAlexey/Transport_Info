@@ -1,8 +1,13 @@
 #pragma once
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 class Transport
 {
-private:
+protected:
+	string name; // наименование
 	int wheelsQty; // кол-во колёс
 	int maxSpeedKmH; // максимальная скорость (км/ч)
 public:

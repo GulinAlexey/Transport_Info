@@ -2,8 +2,9 @@
 #include "Transport.h"
 
 // Автомобиль
-class Car : Transport
+class Car : public Transport
 {
-private:
 public:
+	Car();
+	void showInfo() override;
 };
